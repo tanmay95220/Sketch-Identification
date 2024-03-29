@@ -1,0 +1,31 @@
+body{
+background-color: yellow;
+}
+#btn1{
+    float: right;
+}
+canvas{
+    margin-top:100px;
+    border-radius: 10px;
+    animation-name: colourchange; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes colourchange {
+    0%{
+        box-shadow: 2px 2px 50px red;
+    }
+    25%{
+        box-shadow: 2px 2px 50px ghostwhite;
+    }
+    50%{
+        box-shadow: 2px 2px 50px rgb(151, 20, 238);
+    }
+    75%{
+        box-shadow: 2px 2px 50px rgb(12, 56, 255);
+    }
+    100%{
+        box-shadow: 2px 2px 50px rgb(255, 128, 9);
+    }
+}
